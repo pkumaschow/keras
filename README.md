@@ -12,4 +12,5 @@ I'm using a 1060.
 
 https://developer.nvidia.com/cuda-downloads
 
+https://keras.io/
 
