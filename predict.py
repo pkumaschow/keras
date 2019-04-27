@@ -1,12 +1,12 @@
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
-from keras.applications.vgg19 import preprocess_input
-from keras.applications.vgg19 import decode_predictions
-from keras.applications.vgg19 import VGG19
+from keras.applications.vgg16 import preprocess_input
+from keras.applications.vgg16 import decode_predictions
+from keras.applications.vgg16 import VGG16
 # load the model
-model = VGG19()
+model = VGG16()
 # load an image from file
-image = load_img('images/32763874587_d4e59cbfab_z.jpg', target_size=(224, 224))
+image = load_img('images/47654254552_6b9a395051_z.jpg', target_size=(224, 224))
 # convert the image pixels to a numpy array
 image = img_to_array(image)
 # reshape data for the model
